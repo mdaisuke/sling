@@ -38,7 +38,9 @@ defmodule Api.Mixfile do
       {:phoenix_ecto, "~> 3.2"},
       {:mariaex, ">= 0.0.0"},
       {:gettext, "~> 0.11"},
-      {:cowboy, "~> 1.0"}
+      {:cowboy, "~> 1.0"},
+      {:comeonin, "~> 2.5"},
+      {:guardian, "~> 1.0-beta"}
     ]
   end
 
